@@ -1,8 +1,9 @@
 db:
-  type: postgres
+  type: pg
   host: postgres.railway.internal
   port: 5432
   user: postgres
   pass: xbXaBUoKQbqZFtCTQmHhjzmdgtVniqZl
   db: railway
-  ssl: true
+  ssl:
+    rejectUnauthorized: false
