@@ -1,0 +1,4 @@
+db:
+  type: postgres
+  url: ${DATABASE_URL}
+  ssl: true
